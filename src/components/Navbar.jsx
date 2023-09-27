@@ -25,10 +25,11 @@ const Navbar = () => {
             <img
               src={logo}
               alt="logo"
-              className="w-10 h-10 object-fill"    
-              //  why arent the styles being appleid here?
-            />
-          </Link>
+              className="w-8 h-8 object-contain"
+            /> 
+            <p className="text-white text-[18px] font-bold cursor pointer"> Rafa <span className="sm:block hidden"> | Progamming </span> </p>
+
+            </Link>
         </div>
       </nav>
     
